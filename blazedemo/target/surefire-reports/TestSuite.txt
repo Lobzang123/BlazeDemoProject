@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.68 sec <<< FAILURE! - in TestSuite
+login(com.booking.Testing)  Time elapsed: 0.024 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.utils.ElementUtility.verifyTitle(ElementUtility.java:20)
+	at com.booking.Testing.login(Testing.java:26)
+

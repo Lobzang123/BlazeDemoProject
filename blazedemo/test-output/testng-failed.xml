@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BookingFlights]">
+  <test name="Booking(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.booking.Testing">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.booking.Testing -->
+    </classes>
+  </test> <!-- Booking(failed) -->
+</suite> <!-- Failed suite [BookingFlights] -->
