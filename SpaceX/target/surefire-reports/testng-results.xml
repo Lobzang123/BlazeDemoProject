@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.test.BaseTest" duration-ms="5726" started-at="2021-01-30T14:42:52 IST" finished-at="2021-01-30T14:42:58 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5726" started-at="2021-01-30T14:42:52 IST" finished-at="2021-01-30T14:42:58 IST">
+      <class name="com.test.BaseTest">
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.test.BaseTest@73846619]" name="baseTest" is-config="true" duration-ms="933" started-at="2021-01-30T14:42:52 IST" finished-at="2021-01-30T14:42:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="getRequestAutomation()[pri:0, instance:com.test.BaseTest@73846619]" name="getRequestAutomation" duration-ms="4279" started-at="2021-01-30T14:42:53 IST" finished-at="2021-01-30T14:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestAutomation -->
+      </class> <!-- com.test.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.test.BaseTest -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7659" started-at="2021-01-30T15:58:41 IST" finished-at="2021-01-30T15:58:49 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7659" started-at="2021-01-30T15:58:41 IST" finished-at="2021-01-30T15:58:49 IST">
+      <class name="com.test.BaseTest">
+        <test-method status="PASS" signature="baseTest()[pri:0, instance:com.test.BaseTest@e320068]" name="baseTest" is-config="true" duration-ms="485" started-at="2021-01-30T15:58:42 IST" finished-at="2021-01-30T15:58:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseTest -->
+        <test-method status="PASS" signature="getRequestAutomation()[pri:0, instance:com.test.BaseTest@e320068]" name="getRequestAutomation" duration-ms="4303" started-at="2021-01-30T15:58:42 IST" finished-at="2021-01-30T15:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequestAutomation -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.BaseTest@e320068]" name="test1" duration-ms="29" started-at="2021-01-30T15:58:47 IST" finished-at="2021-01-30T15:58:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="validateGetResponseFieldsAreMatching()[pri:0, instance:com.test.BaseTest@e320068]" name="validateGetResponseFieldsAreMatching" duration-ms="1384" started-at="2021-01-30T15:58:47 IST" finished-at="2021-01-30T15:58:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetResponseFieldsAreMatching -->
+        <test-method status="PASS" signature="validateGetResponseFieldsforNotNullorBlank()[pri:0, instance:com.test.BaseTest@e320068]" name="validateGetResponseFieldsforNotNullorBlank" duration-ms="1205" started-at="2021-01-30T15:58:48 IST" finished-at="2021-01-30T15:58:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetResponseFieldsforNotNullorBlank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.BaseTest@e320068]" name="tearDown" is-config="true" duration-ms="4" started-at="2021-01-30T15:58:49 IST" finished-at="2021-01-30T15:58:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
