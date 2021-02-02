@@ -82,7 +82,6 @@ public class ExcelWriterUtility {
 			FileOutputStream out = new FileOutputStream(new File(projectPath+"\\outputRecords.xlsx"));
 			workbook.write(out);
 			out.close();
-			System.out.println("howtodoinjava_demo.xlsx written successfully on disk.");
 		} 
 		catch (Exception e) 
 		{
