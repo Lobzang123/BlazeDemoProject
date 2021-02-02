@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OpenWeatherMap" duration-ms="7519" started-at="2021-02-02T05:20:13Z" finished-at="2021-02-02T05:20:20Z">
+    <groups>
+    </groups>
+    <test name="OpenWeatherMap" duration-ms="7519" started-at="2021-02-02T05:20:13Z" finished-at="2021-02-02T05:20:20Z">
+      <class name="com.test.ExcelWriterTest">
+        <test-method status="PASS" signature="testExcelWriter()[pri:0, instance:com.test.ExcelWriterTest@553f17c]" name="testExcelWriter" duration-ms="1481" started-at="2021-02-02T10:50:19Z" finished-at="2021-02-02T10:50:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelWriter -->
+      </class> <!-- com.test.ExcelWriterTest -->
+      <class name="com.test.GetAPITest">
+        <test-method status="PASS" signature="SetUP()[pri:0, instance:com.test.GetAPITest@4f7d0008]" name="SetUP" is-config="true" duration-ms="11" started-at="2021-02-02T10:50:13Z" finished-at="2021-02-02T10:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUP -->
+        <test-method status="PASS" signature="verifyRecordSuccessfulRead()[pri:0, instance:com.test.GetAPITest@4f7d0008]" name="verifyRecordSuccessfulRead" duration-ms="3781" started-at="2021-02-02T10:50:13Z" finished-at="2021-02-02T10:50:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecordSuccessfulRead -->
+        <test-method status="PASS" signature="validateResponse()[pri:0, instance:com.test.GetAPITest@4f7d0008]" name="validateResponse" duration-ms="1485" started-at="2021-02-02T10:50:17Z" finished-at="2021-02-02T10:50:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponse -->
+      </class> <!-- com.test.GetAPITest -->
+      <class name="com.test.ExcelReaderTest">
+        <test-method status="PASS" signature="testExcelReader()[pri:0, instance:com.test.ExcelReaderTest@77cd7a0]" name="testExcelReader" duration-ms="729" started-at="2021-02-02T10:50:18Z" finished-at="2021-02-02T10:50:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExcelReader -->
+      </class> <!-- com.test.ExcelReaderTest -->
+    </test> <!-- OpenWeatherMap -->
+  </suite> <!-- OpenWeatherMap -->
+</testng-results>
